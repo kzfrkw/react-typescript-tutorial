@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## deployed page
+
+You can access deployed app with this URL.
+https://react-typescript-tutoria-10556.firebaseapp.com
+
 ## Available Scripts
 
 In the project directory, you can run:

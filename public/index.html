@@ -39,5 +39,26 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    
+    <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyAU75mw8h5pUFsf7vjLdUqYs3I2aVBJFLU",
+        authDomain: "react-typescript-tutoria-10556.firebaseapp.com",
+        databaseURL: "https://react-typescript-tutoria-10556.firebaseio.com",
+        projectId: "react-typescript-tutoria-10556",
+        storageBucket: "",
+        messagingSenderId: "732908771030",
+        appId: "1:732908771030:web:29a684e9584c1412"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
   </body>
 </html>
